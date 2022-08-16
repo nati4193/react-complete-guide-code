@@ -1,11 +1,11 @@
-import Todo from './components/Todo';
+import { Fragment } from "react";
+import Header from "./components/Layout/Header";
 
 function App() {
   return (
-    <div>
-      <h1>My Todos</h1>
-      <Todo text='Learn React' />
-    </div>
+    <Fragment>
+      <Header/>
+    </Fragment>
   );
 }
 
